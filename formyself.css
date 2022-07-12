@@ -1,0 +1,166 @@
+.border{
+	border: 1px solid #dadce0;
+	height: 600px;
+	width: 41%;
+	position: relative;
+	margin: auto;
+margin-top: 9%;
+	border-radius: 10px;
+
+}
+.left{
+	width: 55%;
+	float: left;
+}
+.right{
+	width: 45%;
+	float: right;
+	margin-top: 10%;
+	
+}
+
+.google{
+	width: 100px;
+	margin-left: 20px;
+	margin-top: 30px;
+	height: 55px;
+}
+.change{
+	margin-left: 10%;
+	width: 70%;
+	height: 400px;
+}
+.create{
+	margin-left: 30px;
+	font-size: 25px;
+}
+#continue{
+	font-size: 16px;
+}
+
+#firstlast{
+	width: 40%;
+	margin-left: 10%;
+	border: 1px solid #dadce0;
+	height: 27px;
+	}
+	#firstlast1{
+	width: 40%;
+	margin-left: 2%;
+	border: 1px solid #dadce0;
+	height: 27px;
+	}
+#username{
+	width: 85%;
+	margin-left: 10%;
+	margin-top: 5%;
+	border: 1px solid #dadce0;
+	height: 27px;
+
+}
+#span1{
+    color: #5f6368;
+    margin-left: 10%;
+    font-size: 15px;
+	display: flex;
+}
+#gmail{
+    color: #202124;
+    direction: ltr;
+    display: inline-block;
+}
+.password{
+	margin-top: 10%;
+}
+#password1{
+	width: 40%;
+	margin-left: 10%;
+	border: 1px solid #dadce0;
+	height: 27px;
+	}
+	#password2{
+	width: 40%;
+	margin-left: 2%;
+	border: 1px solid #dadce0;
+	height: 27px;
+	}
+	.checkbox{
+		margin-left: 10%;
+		margin-top: 10%;
+	}
+	
+		
+	.checkbox1{
+   width: 20px;
+   height: 20px;
+
+	}
+	.svg{
+width:100%; height: 300px;
+	}
+.sign-in{
+	display: block;
+	margin-top: 10%;
+	margin-left: 10%;
+}
+.sign-in a{
+text-decoration: none;
+	color: #1a73e8;
+}
+.sign-in button{
+	color: white;
+	background:#1a73e8; 
+	border: 0px;
+	border-radius: 4px;
+	height: 35px;
+	width: 80px;
+    margin-left:150px;
+	
+
+}
+.footer1{
+	margin-left: 57%;
+	display: flex;
+	text-decoration: none;
+	list-style: none;
+
+}
+
+.footer1 li{
+	padding-left: 30px;
+}
+.footer1 a{
+	text-decoration: none;
+	color: #5f6368;
+	font-size: 15px;
+}
+#demo{
+	color: #d93025;
+	margin-left: 7%;
+	
+}
+#name_error{
+	color: red;
+	margin-left: 10%;
+	visibility: hidden;
+}
+#password_error {
+	color: red;
+	margin-left: 10%;
+	visibility: hidden;
+}
+#email_error{
+
+	color: red;
+	margin-left: 10%;
+	visibility: hidden;
+}
+.label{
+	position: relative;
+}
+.label label{
+	position: absolute;
+	top: 27px;
+	font-size: 14px;
+	right: 35px;
+}

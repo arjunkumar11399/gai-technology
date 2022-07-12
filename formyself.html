@@ -1,0 +1,116 @@
+<!doctype html>
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Create your Google Account</title>
+		<link rel="stylesheet" type="text/css" href="formyself.css">
+		<link rel="stylesheet" type="text/css" href="formyselfresponsive.css">
+		<script >
+			
+			function validateform() 
+			{
+				var name = document.forms["myform"]["name"].value;
+				var email= document.forms["myform"]["email"].value;
+				var password= document.forms["myform"]["password"].value;
+				var name_error = document.getElementById("name_error");
+				var email_error = document.getElementById("email_error");
+				var password_error = document.getElementById("password_error");
+
+				if (name=="" && email=="" && password=="" ) 
+				{
+					name_error.style.visibility="visible";
+					email_error.style.visibility="visible";
+			        password_error.style.visibility="visible";
+
+					return false;
+				}
+			}
+			function showname()
+			{
+				var a =document.getElementById("password1");
+				var b = document.getElementById("password2");
+				if( a.type ==="password" && b.type ==="password")
+				{
+					a.type = "text";
+					b.type = "text";
+				}
+				else{
+					a.type = "password";
+					b.type = "password";
+				}
+			}
+
+	    </script>
+
+	</head>
+	<body>
+	   <form name="myform" onsubmit="return validateform()" >
+		<section class="border">
+			<div class="left">
+				<img class="google" src="/home/arjun/Documents/google/pic.jpg" >
+			
+			  <section class="create">Create your Google Account
+                <p id="continue">to continue to Gmail</p>
+              </section>
+                <div>
+              	   <input id="firstlast" type="text" name="name" placeholder="First name">
+                   <input id="firstlast1" type="text" name="name" placeholder="Last name">
+                   <span><div id="name_error"> enter First and last names</div></span>
+                </div>
+                <div>
+                <div class="label">
+                	<input id="username" type="email" name="email" placeholder="Username" > 
+                	<label>@gmail.com</label>
+                </div>
+                	  <span><div id="email_error">Choose a gmail address</div></span> 
+                	<span id="span1">
+                		You can use letters, number and periods
+                	</span>
+                </div>	
+                <div class="password">
+
+              	   <input id="password1" type="password"  placeholder="Password">
+                   <input id="password2" type="password"  placeholder="confirm" >
+
+                     <span><div id="password_error">Enter a password</div></span>
+                   <span id="span1">
+                		Use 8 or more characters with a mix of letters, numbers & symbols
+                	</span>
+                </div> 
+                <div class="checkbox">
+
+                	<input type="checkbox" name="password" onclick = "showname()"> 
+
+                	<label for="password">Show password</label>
+
+                </div>
+                <div class="sign-in">
+                	<a href="#">Sign in instead</a>
+                	<button type="submit">Next</button>
+                	
+                	
+                </div>	
+            </div>
+                <div class="right">
+                	<div class="svg">
+            	       <img class="change" src="/home/arjun/Documents/google/account.svg">
+            	    </div>
+            	    <div>
+            	      <p align="center"> One account. All of Google working for you.</p>
+            	    </div>
+                </div>
+		</section>
+	                
+                <footer>
+    		<ul class="footer1">
+    		
+    			<li><a href="#">Help</a></li>
+    			<li><a href="#">Privacy</a></li>
+    			<li><a href="#">Term</a></li>
+    		</ul>
+    	</footer>
+    </form>
+	</body>
+	</html>

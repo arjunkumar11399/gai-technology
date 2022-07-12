@@ -1,0 +1,73 @@
+<!doctype html>
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="google.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>sign in-Google Accounts</title>
+	</head>
+<script>
+function validateForm() {
+  let x = document.forms["myform"]["fname"].value;
+  if (x == "") {
+    document.getElementById("demo").innerHTML=("&#9888 Enter an email or phone number");
+
+    return false;
+  }
+}
+</script>
+	<body>
+	
+	    <form name="myform" onsubmit="return validateForm()">
+			<section class="parent">
+				<div class="google">
+					<img src="/home/arjun/Documents/google/pic.jpg">
+				</div>
+				<div class="sign_in">
+					<p>Sign in</p>
+				</div>
+				<div class="continue">
+					<p>to continue to Gmail</p>
+				</div>
+				
+				<div class="text_area">
+					<input type="text" id="red" name="fname" placeholder="Email or phone" name="fname">
+				
+				</div>
+					<span id="demo"></span>
+
+				<div class="forget">
+					<a href="#" >Forgot email?</a>
+				</div>
+				<div class="com">
+					<p>Not your computer? Use Guest mode to sign in privately.</p>
+					<a href="#">Learn more</a>
+
+				</div>
+				<div class="account">
+					<div class="dropdown">
+					        <button class="dropbtn">Create account</button>
+					        <div class="dropdown-content">
+							  <a href="/home/arjun/Documents/google/formyself.html">For myself</a>
+							  <a href="#">For my child</a>
+							  <a href="#">To manage my bussiness</a>
+				    	    </div>
+					  
+			    	</div>
+				 
+
+					<button id="button" type="submit">Next</button>
+				</div> 
+				<footer>
+		    		<ul class="footer1">
+		    			<li><a href="#">Help</a></li>
+		    			<li><a href="#">Privacy</a></li>
+		    			<li><a href="#">Term</a></li>
+		    		</ul>
+	    	  </footer>
+	    	</section>
+	    	
+		</form>
+	</body>
+	</html>

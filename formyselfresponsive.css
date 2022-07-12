@@ -1,0 +1,82 @@
+@media only screen and (max-width: 1638px)
+{
+	.sign-in button{
+	
+    margin-left:100px;
+	}
+}
+@media only screen and (max-width: 1392px)
+{
+	.sign-in button{
+	
+    margin-left:50px;
+	}
+}
+@media only screen and (max-width: 1145px)
+{
+	.sign-in button{
+	
+    margin-left:20px;
+	}
+}
+@media only screen and (max-width: 996px)
+{
+	
+.left{
+	width: 100%;
+}	
+.right{
+	display: none;
+}	
+.footer1{
+	margin-left: 40%;
+}
+.sign-in button{
+	
+    margin-left:10px;
+	}
+}
+@media only screen and (max-width: 760px)
+{
+.footer1{
+	margin-left: 30%;
+}
+.border{
+	width: 80%;
+	height: 700px;
+	
+}
+.footer1 li{
+	padding-left: 10px;
+}
+}
+@media only screen and (max-width: 600px)
+{
+#firstlast{
+	width: 90%;
+	margin-left: 4%;
+}
+#firstlast1{
+	width: 90%;
+	margin-left: 4%;
+	margin-top: 10px;
+}
+#username{
+	width: 90%;
+	margin-left: 4%;
+	margin-top: 10px;
+
+}
+#span1{
+	margin-top: 10px;
+}
+#password1,#password2 {
+	width: 90%;
+	margin-left: 4%;
+	margin-top: 10px;
+}
+.border{
+	width: 100%;
+	height: 750px;
+}
+}
